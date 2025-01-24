@@ -1,0 +1,45 @@
+Script started on 2024-11-22 03:32:30-07:00 [TERM="xterm-256color" TTY="/dev/pts/82" COLUMNS="209" LINES="51"]
+
+Disk quotas for user adam.affan (uid 30737452): 
+     Filesystem   space   quota   limit   grace   files   quota   limit   grace
+10.44.125.21:/CSUSERS
+                  8704K  10240M  10240M             179    100k    100k        
+
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] exit./a5agcc a5aMain.o a5a.o -o a5a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pas -o a5a.o a5a.s[1@m4 a5a.asm >[C[C[C[C[C[C[2Pgcc -c a5aMain.cm4 a5a.asm > a5a.s[C[1P.sb.s[1P[1@b
+[?2004l
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] m4 a5b.asm > a5b.sexit[K./a5agcc a5aMain.o a5a.o -o a5a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pas -o a5a.o a5a.s[1@m4 a5a.asm >[C[C[C[C[C[C[1Pas -o a5a.o[C[C[C[C[C[C[1P.sb.s[1P[1@b
+[?2004l
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] as -o a5b.o a5b.s[1@m4 a5b.asm >[C[C[C[C[C[Cexit[K./a5agcc a5aMain.o a5a.o -o a5a[Kb[9Pas -o a5a.o a5a.s[1@m4 a5a.asm >[C[C[C[C[C[C[2Pgcc -c a5aMain.c[5Pvim a5a.asmgcc -c a5aMain.c[5Pvim a5a.asmgcc -c a5aMain.cas a5a.s - a5a.ogcc -c a5aMain.cas a5a.s - a5a.ogcc -c a5aMain.c[3Pvim[C[C[C[C[C[C[C[C[C[Cls[K./assign4ls[Kvim a5aMain.cls[K./assign4gcc -o assign4 assign4.o[1P.o[1P.o[1P.o[1P.o[1P.o[1P.o5.ob.o[1P a5b.o[1P a5b.o[1P a5b.o[1P a5b.o[1P a5b.o[1P a5b.o5 a5b.ob a5b.o
+[?2004l
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] gcc -o a5b a5b.oas -o a5b.o a5b.s[1@m4 a5b.asm >[C[C[C[C[C[Cexit[K./a5agcc a5aMain.o a5a.o -o a5b
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./a5a[K[Kb 9 11 1990
+[?2004l
+September 11th, 1990
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] ./a5b 9 11 1990[C[1P 1990[1P 19902 19901 1990
+[?2004l
+September 21st, 1990
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] ./a5b 9 21 1990[1P 1990[1P 19903 19901 1990
+[?2004l
+September 31st, 1990
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] ./a5b 9 31 1990[1P 1990[1P 19902 19903 1990
+[?2004l
+September 23rd, 1990
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] ./a5b 9 23 1990[1P 1990[1P 1990[1P1990[1P 19901 19902 1990[C 19901 1990[1P 19902 1990[1P 19903 1990[1P 19902 19905 1990
+[?2004l
+December 25th, 1990
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] ./a5b 12 25 1990[1P 1990[1P 19903 19902 1990
+[?2004l
+ERROR
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] ./a5b 12 32 1990[1P 1990[1P 19904 19905 1990
+[?2004l
+ERROR
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] ./a5b 12 45 1990[K[K[K[K[K[K[K[K[K
+[?2004l
+Usage: a5b mm dd yyyy
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] [?2004l
+
+exit
+
+Script done on 2024-11-22 03:35:37-07:00 [COMMAND_EXIT_CODE="22"]
