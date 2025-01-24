@@ -1,0 +1,151 @@
+Script started on 2024-09-25 17:39:51-06:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="120" LINES="30"]
+
+Disk quotas for user adam.affan (uid 30737452): 
+     Filesystem   space   quota   limit   grace   files   quota   limit   grace
+10.44.125.21:/CSUSERS
+                  8364K  10240M  10240M             151    100k    100k        
+
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] exitgdb assign1b.out[14@cc assign1b.s -o[C[C[C[C[C[C[C[C[C[C[C[C[C[4P-o assign1b assign1b.oassign1b.s -o assign1b.out[4P-o assign1b assign1b.o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cas -o assign1b.o assign1b.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign1b.asm >[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] m4 assign1b.asm > assign1b.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgdb assign1b.out[14@cc assign1b.s -o[C[C[C[C[C[C[C[C[C[C[C[C[C[4P-o assign1b assign1b.o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cas -o assign1b.o assign1b.s
+[?2004l]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] as -o assign1b.o assign1b.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign1b.asm >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgdb assign1b.out[14@cc assign1b.s -o[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] gcc assign1b.s -o assign1b.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pas -o assign1b.o assign1b.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign1b.asm >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgdb assign1b.out[14@cc assign1b.s -o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pdb[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[35;1mGNU gdb (Fedora Linux) 14.2-3.fc40[m
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <[32mhttp://gnu.org/licenses/gpl.html[m>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+[32m<https://www.gnu.org/software/gdb/bugs/>[m.
+Find the GDB manual and other documentation resources online at:
+    <[32mhttp://www.gnu.org/software/gdb/documentation/[m>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32massign1b.out[m...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <[32mhttps://debuginfod.fedoraproject.org/[m>
+[?2004hEnable debuginfod for this session? (y or [n]) y
+[?2004lDebuginfod has been enabled.
+To make this setting permanent, add 'set debuginfod enabled on' to .gdbinit.
+                                                                                                                        (No debugging symbols found in [32massign1b.out[m)
+[?2004h(gdb) b loop
+[?2004lBreakpoint 1 at [34m0x4101f0[m
+[?2004h(gdb) r
+[?2004lStarting program: [32m/home/csusers/adam.affan/assign1b.out[m 
+                                                                                                                                                                                                                                                [Thread debugging using libthread_db enabled]
+Using host libthread_db library "[32m/lib64/libthread_db.so.1[m".
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: -11, y: 92300, Current Minimum: 50000
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: -10, y: 64047, Current Minimum: 50000
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: -9, y: 43006, Current Minimum: 43006
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: -8, y: 27809, Current Minimum: 27809
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: -7, y: 17232, Current Minimum: 17232
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: -6, y: 10195, Current Minimum: 10195
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: -5, y: 5762, Current Minimum: 5762
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: -4, y: 3141, Current Minimum: 3141
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: -3, y: 1684, Current Minimum: 1684
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: -2, y: 887, Current Minimum: 887
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: -1, y: 390, Current Minimum: 390
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: 0, y: -23, Current Minimum: -23
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: 1, y: -424, Current Minimum: -424
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: 2, y: -741, Current Minimum: -741
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: 3, y: -758, Current Minimum: -758
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: 4, y: -115, Current Minimum: -758
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: 5, y: 1692, Current Minimum: -758
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: 6, y: 5311, Current Minimum: -758
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: 7, y: 11534, Current Minimum: -758
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: 8, y: 21297, Current Minimum: -758
+
+Breakpoint 1, [34m0x00000000004101f0[m in [33mloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x: 9, y: 35680, Current Minimum: -758
+[Inferior 1 (process 2898127) exited normally]
+[?2004h[?2004l[?2004h(gdb) q
+[?2004l]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] exit
+[?2004lexit
+
+Script done on 2024-09-25 17:42:40-06:00 [COMMAND_EXIT_CODE="0"]
