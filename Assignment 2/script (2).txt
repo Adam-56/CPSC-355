@@ -1,0 +1,109 @@
+Script started on 2024-10-08 18:48:49-06:00 [TERM="xterm-256color" TTY="/dev/pts/47" COLUMNS="209" LINES="51"]
+
+Disk quotas for user adam.affan (uid 30737452): 
+     Filesystem   space   quota   limit   grace   files   quota   limit   grace
+10.44.125.21:/CSUSERS
+                  8396K  10240M  10240M             157    100k    100k        
+
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] exitgdb assign2a[2P./assign2agcc -o assign2a assign2a.o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cas -o assign2a.o assign2a.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign2a.asm >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc assign2a.asm -o assign2a -g3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgcc assign2a.asm -o assign2a -g3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pm4 assign2a.asm > assign2a.s
+[?2004l]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] m4 assign2a.asm > assign2a.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgdb assign2a[2P./assign2agcc -o assign2a assign2a.o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cas -o assign2a.o assign2a.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign2a.asm >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pas -o assign2a.o[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] as -o assign2a.o assign2a.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign2a.asm >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgdb assign2a[2P./assign2agcc -o assign2a assign2a.o
+[?2004l]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] gcc -o assign2a assign2a.o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cas -o assign2a.o assign2a.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign2a.asm >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgdb assign2a[2P./assign2a
+[?2004loriginal: 0x07FC07FC      reversed: 0x3FE03FE0
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] ./assign2agcc -o assign2a assign2a.o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cas -o assign2a.o assign2a.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign2a.asm >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgdb assign2a
+[?2004l[35;1mGNU gdb (Fedora Linux) 14.2-3.fc40[m
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <[32mhttp://gnu.org/licenses/gpl.html[m>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+[32m<https://www.gnu.org/software/gdb/bugs/>[m.
+Find the GDB manual and other documentation resources online at:
+    <[32mhttp://www.gnu.org/software/gdb/documentation/[m>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32massign2a[m...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <[32mhttps://debuginfod.fedoraproject.org/[m>
+[?2004hEnable debuginfod for this session? (y or [n]) y
+[?2004lDebuginfod has been enabled.
+To make this setting permanent, add 'set debuginfod enabled on' to .gdbinit.
+                                                                                                                                                                                                                 (No debugging symbols found in [32massign2a[m)
+[?2004h(gdb) b step1
+[?2004lBreakpoint 1 at [34m0x4101e0[m
+[?2004h(gdb) b step 2[1P2
+[?2004lBreakpoint 2 at [34m0x4101f4[m
+[?2004h(gdb) b step3
+[?2004lBreakpoint 3 at [34m0x410208[m
+[?2004h(gdb) b step4
+[?2004lBreakpoint 4 at [34m0x41021c[m
+[?2004h(gdb) b done
+[?2004lBreakpoint 5 at [34m0x410254[m
+[?2004h(gdb) r
+[?2004lStarting program: [32m/home/csusers/adam.affan/assign2a[m 
+                                                                                                                                                                                                                                                                                                                                                                                                                                  [Thread debugging using libthread_db enabled]
+Using host libthread_db library "[32m/lib64/libthread_db.so.1[m".
+
+Breakpoint 1, [34m0x00000000004101e0[m in [33mstep1[m ()
+[?2004h[?2004l[?2004h(gdb) [7mp/a $w19[27m[C[C[C[C[C[Cp/a $w19
+[?2004l$1 = [34m0x7fc07fc[m
+[?2004h(gdb) p/a $w19[K[K20
+[?2004l$2 = [34m0x1[m
+[?2004h(gdb) p/a $w20[K1
+[?2004l$3 = [34m0x43fdf0[m
+[?2004h(gdb) p/a $w21[K2
+[?2004l$4 = [34m0x4100b4[m <[33m_start[m+52>
+[?2004h(gdb) p/a $w22[K3
+[?2004l$5 = [34m0xfffff278[m
+[?2004h(gdb) p/a $w23[K4
+[?2004l$6 = [34m0xf7ffdb40[m
+[?2004h(gdb) p/a $w24[K5
+[?2004l$7 = [34m0x0[m
+[?2004h(gdb) p/a $w25[K6
+[?2004l$8 = [34m0xf7ffe000[m
+[?2004h(gdb) c
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004101f4[m in [33mstep2[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+
+Breakpoint 3, [34m0x0000000000410208[m in [33mstep3[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+
+Breakpoint 4, [34m0x000000000041021c[m in [33mstep4[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+original: 0x07FC07FC      reversed: 0x3FE03FE0
+
+Breakpoint 5, [34m0x0000000000410254[m in [33mdone[m ()
+[?2004h[?2004l[?2004h(gdb) cp/a $w2654321019
+[?2004l$9 = [34m0x7fc07fc[m
+[?2004h(gdb) p/a $w19[C[C[C[C[C[Cc[Kp/a $w26543210
+[?2004l$10 = [34m0x3fe03fe0[m
+[?2004h(gdb) p/a $w2019[C[C[C[C[C[Cc[Kp/a $w2654321
+[?2004l$11 = [34m0x3f000000[m
+[?2004h(gdb) p/a $w21019[C[C[C[C[C[Cc[Kp/a $w265432
+[?2004l$12 = [34m0xe00000[m
+[?2004h(gdb) p/a $w221019[C[C[C[C[C[Cc[Kp/a $w26543
+[?2004l$13 = [34m0x3f00[m
+[?2004h(gdb) p/a $w2321019[C[C[C[C[C[Cc[Kp/a $w2654
+[?2004l$14 = [34m0xe0[m
+[?2004h(gdb) p/a $w24321019[C[C[C[C[C[Cc[Kp/a $w26545
+[?2004l$15 = [34m0x3fe00000[m
+[?2004h(gdb) p/a $w254321019[C[C[C[C[C[Cc[Kp/a $w192012345[C[C[C[C[C[C[Kp/a $w25[K6
+[?2004l$16 = [34m0x3fe0[m
+[?2004h(gdb) c
+[?2004lContinuing.
+[Inferior 1 (process 1381055) exited normally]
+[?2004h[?2004l[?2004h(gdb) exit
+[?2004l]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] exit
+[?2004lexit
+
+Script done on 2024-10-08 18:53:47-06:00 [COMMAND_EXIT_CODE="0"]
