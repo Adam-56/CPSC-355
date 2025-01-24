@@ -1,45 +1,0 @@
-Script started on 2024-11-22 18:04:45-07:00 [TERM="xterm-256color" TTY="/dev/pts/23" COLUMNS="144" LINES="38"]
-
-Disk quotas for user adam.affan (uid 30737452): 
-     Filesystem   space   quota   limit   grace   files   quota   limit   grace
-10.44.125.21:/CSUSERS
-                  8576K  10240M  10240M             177    100k    100k        
-
-]0;adam.affan@csa1:~[?2004h[UC adam.affan@csa1 ~] exit./a5agcc a5aMain.o a5a.o -o a5a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pas a5a.s -o a5a.om4 a5a.asm > a5a.s[1P gcc -c a5aMain.c
-[?2004l]0;adam.affan@csa1:~[?2004h[UC adam.affan@csa1 ~]  gcc -c a5aMain.cexit[K./a5agcc a5aMain.o a5a.o -o a5a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pas a5a.s -o a5a.om4 a5a.asm > a5a.s[1P gcc -c a5aMain.cm4 a5a.asm > a5a.s
-[?2004l]0;adam.affan@csa1:~[?2004h[UC adam.affan@csa1 ~] m4 a5a.asm > a5a.s[1P gcc -c a5aMain.cexit[K./a5agcc a5aMain.o a5a.o -o a5a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pas a5a.s -o a5a.om4 a5a.asm > a5a.s[1Pas a5a.s -o a5a.o
-[?2004l]0;adam.affan@csa1:~[?2004h[UC adam.affan@csa1 ~] as a5a.s -o a5a.om4 a5a.asm > a5a.s[1P gcc -c a5aMain.cexit[K./a5agcc a5aMain.o a5a.o -o a5a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pas a5a.s -o a5a.ogcc a5aMain.o a5a.o -o a5a
-[?2004l]0;adam.affan@csa1:~[?2004h[UC adam.affan@csa1 ~] gcc a5aMain.o a5a.o -o a5a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pas a5a.s -o a5a.om4 a5a.asm > a5a.s[1P gcc -c a5aMain.cexit[K./a5a
-[?2004l1 2 - 4 5 + * =
-
--9
-
-c
-4 5 * 6 + =
-
-26
-
-c
-55555ss 
-unknown command s
-c
-1 2 + 3 * =
-
-9
-
-c
-10 0 / =
-zero divisor popped
-
-1
-
-c
-10 0 / =^[[B            5 3 + c =
-error: stack empty
-
-0
-
-]0;adam.affan@csa1:~[?2004h[UC adam.affan@csa1 ~] exit
-[?2004lexit
-
-Script done on 2024-11-22 18:07:22-07:00 [COMMAND_EXIT_CODE="0"]
