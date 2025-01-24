@@ -1,0 +1,1411 @@
+Script started on 2024-10-22 23:41:31-06:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="209" LINES="51"]
+
+Disk quotas for user adam.affan (uid 30737452): 
+     Filesystem   space   quota   limit   grace   files   quota   limit   grace
+10.44.125.21:/CSUSERS
+                  8404K  10240M  10240M             159    100k    100k        
+
+]0;adam.affan@csa1:~[?2004h[UC adam.affan@csa1 ~] exitgdb assign3[2P./assign3gcc -o assign3 assign3.oas -o assign3.o assign3.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign3.asm >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17P./assign3m4 assign3.asm > assign3.s
+[?2004l]0;adam.affan@csa1:~[?2004h[UC adam.affan@csa1 ~] m4 assign3.asm > assign3.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgdb assign3[2P./assign3gcc -o assign3 assign3.oas -o assign3.o assign3.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign3.asm >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pas -o assign3.o[C[C[C[C[C[C[C[C[C[C
+[?2004l]0;adam.affan@csa1:~[?2004h[UC adam.affan@csa1 ~] as -o assign3.o assign3.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign3.asm >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgdb assign3[2P./assign3gcc -o assign3 assign3.o
+[?2004l]0;adam.affan@csa1:~[?2004h[UC adam.affan@csa1 ~] gcc -o assign3 assign3.oas -o assign3.o assign3.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign3.asm >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgdb assign3[2P./assign3
+[?2004lv[0]: 359
+v[1]: 454
+v[2]: 105
+v[3]: 115
+v[4]: 81
+v[5]: 255
+v[6]: 74
+v[7]: 236
+v[8]: 297
+v[9]: 205
+v[10]: 186
+v[11]: 427
+v[12]: 498
+v[13]: 251
+v[14]: 483
+v[15]: 326
+v[16]: 124
+v[17]: 194
+v[18]: 84
+v[19]: 504
+v[20]: 283
+v[21]: 488
+v[22]: 487
+v[23]: 397
+v[24]: 374
+v[25]: 346
+v[26]: 302
+v[27]: 99
+v[28]: 51
+v[29]: 415
+v[30]: 201
+v[31]: 410
+v[32]: 358
+v[33]: 306
+v[34]: 13
+v[35]: 439
+v[36]: 49
+v[37]: 88
+v[38]: 163
+v[39]: 346
+v[40]: 293
+v[41]: 349
+v[42]: 261
+v[43]: 279
+v[44]: 88
+v[45]: 233
+v[46]: 94
+v[47]: 212
+v[48]: 427
+v[49]: 178
+v[50]: 205
+v[51]: 198
+v[52]: 155
+v[53]: 180
+v[54]: 84
+v[55]: 17
+v[56]: 14
+v[57]: 386
+v[58]: 116
+v[59]: 65
+v[60]: 289
+v[61]: 317
+v[62]: 476
+v[63]: 135
+v[64]: 112
+v[65]: 489
+v[66]: 62
+v[67]: 161
+v[68]: 65
+v[69]: 225
+v[70]: 508
+v[71]: 359
+v[72]: 62
+v[73]: 257
+v[74]: 126
+v[75]: 151
+v[76]: 490
+v[77]: 220
+v[78]: 363
+v[79]: 406
+
+Sorted array:
+v[0]: 13
+v[1]: 14
+v[2]: 17
+v[3]: 49
+v[4]: 51
+v[5]: 62
+v[6]: 62
+v[7]: 65
+v[8]: 65
+v[9]: 74
+v[10]: 81
+v[11]: 84
+v[12]: 84
+v[13]: 88
+v[14]: 88
+v[15]: 94
+v[16]: 99
+v[17]: 105
+v[18]: 112
+v[19]: 115
+v[20]: 116
+v[21]: 124
+v[22]: 126
+v[23]: 135
+v[24]: 151
+v[25]: 155
+v[26]: 161
+v[27]: 163
+v[28]: 178
+v[29]: 180
+v[30]: 186
+v[31]: 194
+v[32]: 198
+v[33]: 201
+v[34]: 205
+v[35]: 205
+v[36]: 212
+v[37]: 220
+v[38]: 225
+v[39]: 233
+v[40]: 236
+v[41]: 251
+v[42]: 255
+v[43]: 257
+v[44]: 261
+v[45]: 279
+v[46]: 283
+v[47]: 289
+v[48]: 293
+v[49]: 297
+v[50]: 302
+v[51]: 306
+v[52]: 317
+v[53]: 326
+v[54]: 346
+v[55]: 346
+v[56]: 349
+v[57]: 358
+v[58]: 359
+v[59]: 359
+v[60]: 363
+v[61]: 374
+v[62]: 386
+v[63]: 397
+v[64]: 406
+v[65]: 410
+v[66]: 415
+v[67]: 427
+v[68]: 427
+v[69]: 439
+v[70]: 454
+v[71]: 476
+v[72]: 483
+v[73]: 487
+v[74]: 488
+v[75]: 489
+v[76]: 490
+v[77]: 498
+v[78]: 504
+v[79]: 508
+]0;adam.affan@csa1:~[?2004h[UC adam.affan@csa1 ~] ./assign3gcc -o assign3 assign3.oas -o assign3.o assign3.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@m4 assign3.asm >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgdb assign3
+[?2004l[35;1mGNU gdb (Fedora Linux) 14.2-3.fc40[m
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <[32mhttp://gnu.org/licenses/gpl.html[m>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+[32m<https://www.gnu.org/software/gdb/bugs/>[m.
+Find the GDB manual and other documentation resources online at:
+    <[32mhttp://www.gnu.org/software/gdb/documentation/[m>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32massign3[m...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <[32mhttps://debuginfod.fedoraproject.org/[m>
+[?2004hEnable debuginfod for this session? (y or [n]) y
+[?2004lDebuginfod has been enabled.
+To make this setting permanent, add 'set debuginfod enabled on' to .gdbinit.
+Downloading separate debug info for [32m/home/csusers/adam.affan/assign3[m
+[###                                                                                                                                                                                                          ]                                                                                                                                                                                                                 (No debugging symbols found in [32massign3[m)
+[?2004h(gdb) b [K(gdb) b [K(gdb) b outloop
+[?2004lBreakpoint 1 at [34m0x410220[m
+[?2004h(gdb) xi[K[Kc
+[?2004lThe program is not being run.
+[?2004h(gdb) r
+[?2004lStarting program: [32m/home/csusers/adam.affan/assign3[m 
+                                                                                                                                                                                                                                                                                                                                                                                                                                  [Thread debugging using libthread_db enabled]
+Using host libthread_db library "[32m/lib64/libthread_db.so.1[m".
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[0]: 359
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c[Kr
+[?2004l[?2004hThe program being debugged has been started already.
+Start it from the beginning? (y or n) n
+[?2004lProgram not restarted.
+[?2004h(gdb) c
+[?2004lContinuing.
+v[1]: 454
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) r[Kdisplay x/i $pc
+[?2004lNo symbol "x" in current context.
+[?2004h(gdb) x
+[?2004lArgument required (starting display address).
+[?2004h(gdb) c
+[?2004lContinuing.
+v[2]: 105
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[3]: 115
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[4]: 81
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[5]: 255
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[6]: 74
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[7]: 236
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[8]: 297
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[9]: 205
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[10]: 186
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[11]: 427
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[12]: 498
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[13]: 251
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[14]: 483
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[15]: 326
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[16]: 124
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[17]: 194
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[18]: 84
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[19]: 504
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[20]: 283
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[21]: 488
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[22]: 487
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[23]: 397
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[24]: 374
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[25]: 346
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[26]: 302
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[27]: 99
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[28]: 51
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[29]: 415
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[30]: 201
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[31]: 410
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[32]: 358
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[33]: 306
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[34]: 13
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[35]: 439
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[36]: 49
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[37]: 88
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[38]: 163
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[39]: 346
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[40]: 293
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[41]: 349
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[42]: 261
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[43]: 279
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[44]: 88
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[45]: 233
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[46]: 94
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[47]: 212
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[48]: 427
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[49]: 178
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[50]: 205
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[51]: 198
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[52]: 155
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[53]: 180
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[54]: 84
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[55]: 17
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[56]: 14
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[57]: 386
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[58]: 116
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[59]: 65
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[60]: 289
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[61]: 317
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[62]: 476
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[63]: 135
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[64]: 112
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[65]: 489
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[66]: 62
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[67]: 161
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[68]: 65
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[69]: 225
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[70]: 508
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[71]: 359
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[72]: 62
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[73]: 257
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[74]: 126
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[75]: 151
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[76]: 490
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[77]: 220
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[78]: 363
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[79]: 406
+
+Sorted array:
+v[0]: 13
+v[1]: 14
+v[2]: 17
+v[3]: 49
+v[4]: 51
+v[5]: 62
+v[6]: 62
+v[7]: 65
+v[8]: 65
+v[9]: 74
+v[10]: 81
+v[11]: 84
+v[12]: 84
+v[13]: 88
+v[14]: 88
+v[15]: 94
+v[16]: 99
+v[17]: 105
+v[18]: 112
+v[19]: 115
+v[20]: 116
+v[21]: 124
+v[22]: 126
+v[23]: 135
+v[24]: 151
+v[25]: 155
+v[26]: 161
+v[27]: 163
+v[28]: 178
+v[29]: 180
+v[30]: 186
+v[31]: 194
+v[32]: 198
+v[33]: 201
+v[34]: 205
+v[35]: 205
+v[36]: 212
+v[37]: 220
+v[38]: 225
+v[39]: 233
+v[40]: 236
+v[41]: 251
+v[42]: 255
+v[43]: 257
+v[44]: 261
+v[45]: 279
+v[46]: 283
+v[47]: 289
+v[48]: 293
+v[49]: 297
+v[50]: 302
+v[51]: 306
+v[52]: 317
+v[53]: 326
+v[54]: 346
+v[55]: 346
+v[56]: 349
+v[57]: 358
+v[58]: 359
+v[59]: 359
+v[60]: 363
+v[61]: 374
+v[62]: 386
+v[63]: 397
+v[64]: 406
+v[65]: 410
+v[66]: 415
+v[67]: 427
+v[68]: 427
+v[69]: 439
+v[70]: 454
+v[71]: 476
+v[72]: 483
+v[73]: 487
+v[74]: 488
+v[75]: 489
+v[76]: 490
+v[77]: 498
+v[78]: 504
+v[79]: 508
+[Inferior 1 (process 519010) exited normally]
+[?2004h[?2004l[?2004h(gdb) b main
+[?2004lBreakpoint 2 at [34m0x410214[m
+[?2004h(gdb) r
+[?2004lStarting program: [32m/home/csusers/adam.affan/assign3[m 
+                                                                                                                                                                                                                                                                                                                                                                                                                                  [Thread debugging using libthread_db enabled]
+Using host libthread_db library "[32m/lib64/libthread_db.so.1[m".
+
+Breakpoint 2, [34m0x0000000000410214[m in [33mmain[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[0]: 359
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[1]: 454
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[2]: 105
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[3]: 115
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[4]: 81
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[5]: 255
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[6]: 74
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[7]: 236
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[8]: 297
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[9]: 205
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[10]: 186
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[11]: 427
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[12]: 498
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[13]: 251
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[14]: 483
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[15]: 326
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[16]: 124
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[17]: 194
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[18]: 84
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[19]: 504
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[20]: 283
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[21]: 488
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[22]: 487
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[23]: 397
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[24]: 374
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[25]: 346
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[26]: 302
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[27]: 99
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[28]: 51
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[29]: 415
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[30]: 201
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[31]: 410
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[32]: 358
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[33]: 306
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[34]: 13
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[35]: 439
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[36]: 49
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[37]: 88
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[38]: 163
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[39]: 346
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[40]: 293
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[41]: 349
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[42]: 261
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[43]: 279
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[44]: 88
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[45]: 233
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[46]: 94
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[47]: 212
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[48]: 427
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[49]: 178
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[50]: 205
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[51]: 198
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[52]: 155
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[53]: 180
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[54]: 84
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[55]: 17
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[56]: 14
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[57]: 386
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[58]: 116
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[59]: 65
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[60]: 289
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[61]: 317
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[62]: 476
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[63]: 135
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[64]: 112
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[65]: 489
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[66]: 62
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[67]: 161
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[68]: 65
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[69]: 225
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[70]: 508
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[71]: 359
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[72]: 62
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[73]: 257
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[74]: 126
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[75]: 151
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[76]: 490
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[77]: 220
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[78]: 363
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) 
+[?2004lContinuing.
+v[79]: 406
+
+Sorted array:
+v[0]: 13
+v[1]: 14
+v[2]: 17
+v[3]: 49
+v[4]: 51
+v[5]: 62
+v[6]: 62
+v[7]: 65
+v[8]: 65
+v[9]: 74
+v[10]: 81
+v[11]: 84
+v[12]: 84
+v[13]: 88
+v[14]: 88
+v[15]: 94
+v[16]: 99
+v[17]: 105
+v[18]: 112
+v[19]: 115
+v[20]: 116
+v[21]: 124
+v[22]: 126
+v[23]: 135
+v[24]: 151
+v[25]: 155
+v[26]: 161
+v[27]: 163
+v[28]: 178
+v[29]: 180
+v[30]: 186
+v[31]: 194
+v[32]: 198
+v[33]: 201
+v[34]: 205
+v[35]: 205
+v[36]: 212
+v[37]: 220
+v[38]: 225
+v[39]: 233
+v[40]: 236
+v[41]: 251
+v[42]: 255
+v[43]: 257
+v[44]: 261
+v[45]: 279
+v[46]: 283
+v[47]: 289
+v[48]: 293
+v[49]: 297
+v[50]: 302
+v[51]: 306
+v[52]: 317
+v[53]: 326
+v[54]: 346
+v[55]: 346
+v[56]: 349
+v[57]: 358
+v[58]: 359
+v[59]: 359
+v[60]: 363
+v[61]: 374
+v[62]: 386
+v[63]: 397
+v[64]: 406
+v[65]: 410
+v[66]: 415
+v[67]: 427
+v[68]: 427
+v[69]: 439
+v[70]: 454
+v[71]: 476
+v[72]: 483
+v[73]: 487
+v[74]: 488
+v[75]: 489
+v[76]: 490
+v[77]: 498
+v[78]: 504
+v[79]: 508
+[Inferior 1 (process 519180) exited normally]
+[?2004h[?2004l[?2004h(gdb) x
+[?2004lArgument required (starting display address).
+[?2004h(gdb) b inn[Kloop
+[?2004lBreakpoint 3 at [34m0x410264[m
+[?2004h(gdb) x
+[?2004lArgument required (starting display address).
+[?2004h(gdb) x
+[?2004lArgument required (starting display address).
+[?2004h(gdb) r
+[?2004lStarting program: [32m/home/csusers/adam.affan/assign3[m 
+                                                                                                                                                                                                                                                                                                                                                                                                                                  [Thread debugging using libthread_db enabled]
+Using host libthread_db library "[32m/lib64/libthread_db.so.1[m".
+
+Breakpoint 2, [34m0x0000000000410214[m in [33mmain[m ()
+[?2004h[?2004l[?2004h(gdb) x
+[?2004lArgument required (starting display address).
+[?2004h(gdb) x
+[?2004lArgument required (starting display address).
+[?2004h(gdb) r
+[?2004l[?2004hThe program being debugged has been started already.
+Start it from the beginning? (y or n) n
+[?2004lProgram not restarted.
+[?2004h(gdb) c
+[?2004lContinuing.
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) x
+[?2004lArgument required (starting display address).
+[?2004h(gdb) x[Kc
+[?2004lContinuing.
+v[0]: 359
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[1]: 454
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) quit
+[?2004l[?2004hA debugging session is active.
+
+	Inferior 1 [process 519258] will be killed.
+
+Quit anyway? (y or n) n
+[?2004lNot confirmed.
+[?2004h(gdb) exit
+[?2004l[?2004hA debugging session is active.
+
+	Inferior 1 [process 519258] will be killed.
+
+Quit anyway? (y or n) n
+[?2004lNot confirmed.
+[?2004h(gdb) c
+[?2004lContinuing.
+v[2]: 105
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[3]: 115
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+v[4]: 81
+
+Breakpoint 1, [34m0x0000000000410220[m in [33moutloop[m ()
+[?2004h[?2004l[?2004h(gdb) b[K[7mx/i $pc[27mx/i $pc
+[?2004l=> [34m0x410220[m <[33moutloop[m>:	[32mbl[m	[34m0x410050[m <[33mrand@plt[m>
+[?2004h(gdb) 
+[?2004l   [34m0x410224[m <[33moutloop[m+4>:	[32mldr[m	[31mw19[m, [[31mx29[m, [34m#16[m]
+[?2004h(gdb) 
+[?2004l   [34m0x410228[m <[33moutloop[m+8>:	[32mand[m	[31mw20[m, [31mw0[m, [34m#0x1ff[m
+[?2004h(gdb) 
+[?2004l   [34m0x41022c[m <[33moutloop[m+12>:	[32mstr[m	[31mw20[m, [[31mx28[m, [31mw19[m, [32msxtw[m [34m#2[m]
+[?2004h(gdb) 
+[?2004l   [34m0x410230[m <[33moutloop[m+16>:	[32madrp[m	[31mx0[m, [34m0x410000[m <[33m_init[m>
+[?2004h(gdb) 
+[?2004l   [34m0x410234[m <[33moutloop[m+20>:	[32madd[m	[31mw0[m, [31mw0[m, [34m#0x1ec[m
+[?2004h(gdb) 
+[?2004l   [34m0x410238[m <[33moutloop[m+24>:	[32mmov[m	[31mw1[m, [31mw19[m
+[?2004h(gdb) 
+[?2004l   [34m0x41023c[m <[33moutloop[m+28>:	[32mmov[m	[31mw2[m, [31mw20[m
+[?2004h(gdb) 
+[?2004l   [34m0x410240[m <[33moutloop[m+32>:	[32mbl[m	[34m0x410080[m <[33mprintf@plt[m>
+[?2004h(gdb) 
+[?2004l   [34m0x410244[m <[33moutloop[m+36>:	[32madd[m	[31mw19[m, [31mw19[m, [34m#0x1[m
+[?2004h(gdb) 
+[?2004l   [34m0x410248[m <[33moutloop[m+40>:	[32mstr[m	[31mw19[m, [[31mx29[m, [34m#16[m]
+[?2004h(gdb) 
+[?2004l   [34m0x41024c[m <[33mtest1[m>:	[32mcmp[m	[31mw19[m, [34m#0x50[m
+[?2004h(gdb) 
+[?2004l   [34m0x410250[m <[33mtest1[m+4>:	[32mb.lt[m	[34m0x410220[m <[33moutloop[m>[37;2m  // b.tstop[m
+[?2004h(gdb) 
+[?2004l   [34m0x410254[m <[33mtest1[m+8>:	[32mmov[m	[31mw19[m, [34m#0x50                  [m[37;2m	// #80[m
+[?2004h(gdb) 
+[?2004l   [34m0x410258[m <[33mtest1[m+12>:	[32msub[m	[31mw19[m, [31mw19[m, [34m#0x1[m
+[?2004h(gdb) 
+[?2004l   [34m0x41025c[m <[33mtest1[m+16>:	[32mstr[m	[31mw19[m, [[31mx29[m, [34m#16[m]
+[?2004h(gdb) 
+[?2004l   [34m0x410260[m <[33mtest1[m+20>:	[32mb[m	[34m0x4102a8[m <[33mtest2[m>
+[?2004h(gdb) 
+[?2004l   [34m0x410264[m <[33minloop[m>:	[32mldr[m	[31mw23[m, [[31mx28[m, [31mw22[m, [32msxtw[m [34m#2[m]
+[?2004h(gdb) 
+[?2004l   [34m0x410268[m <[33minloop[m+4>:	[32msub[m	[31mw24[m, [31mw22[m, [34m#0x1[m
+[?2004h(gdb) 
+[?2004l   [34m0x41026c[m <[33minloop[m+8>:	[32mldr[m	[31mw20[m, [[31mx28[m, [31mw24[m, [32msxtw[m [34m#2[m]
+[?2004h(gdb) 
+[?2004l   [34m0x410270[m <[33minloop[m+12>:	[32mcmp[m	[31mw20[m, [31mw23[m
+[?2004h(gdb) 
+[?2004l   [34m0x410274[m <[33minloop[m+16>:	[32mb.lt[m	[34m0x410298[m <[33min_next[m>[37;2m  // b.tstop[m
+[?2004h(gdb) 
+[?2004l   [34m0x410278[m <[33minloop[m+20>:	[32msub[m	[31msp[m, [31msp[m, [34m#0x10[m
+[?2004h(gdb) 
+[?2004l   [34m0x41027c[m <[33minloop[m+24>:	[32mmov[m	[31mw25[m, [31mw20[m
+[?2004h(gdb) 
+[?2004l   [34m0x410280[m <[33minloop[m+28>:	[32mstr[m	[31mw25[m, [[31mx29[m]
+[?2004h(gdb) 
+[?2004l   [34m0x410284[m <[33minloop[m+32>:	[32mmov[m	[31mw20[m, [31mw23[m
+[?2004h(gdb) 
+[?2004l   [34m0x410288[m <[33minloop[m+36>:	[32mstr[m	[31mw20[m, [[31mx28[m, [31mw24[m, [32msxtw[m [34m#2[m]
+[?2004h(gdb) 
+[?2004l   [34m0x41028c[m <[33minloop[m+40>:	[32mmov[m	[31mw23[m, [31mw25[m
+[?2004h(gdb) 
+[?2004l   [34m0x410290[m <[33minloop[m+44>:	[32mstr[m	[31mw23[m, [[31mx28[m, [31mw22[m, [32msxtw[m [34m#2[m]
+[?2004h(gdb) 
+[?2004l   [34m0x410294[m <[33minloop[m+48>:	[32madd[m	[31msp[m, [31msp[m, [34m#0x10[m
+[?2004h(gdb) 
+[?2004l   [34m0x410298[m <[33min_next[m>:	[32madd[m	[31mw22[m, [31mw22[m, [34m#0x1[m
+[?2004h(gdb) 
+[?2004l   [34m0x41029c[m <[33mtest3[m>:	[32mcmp[m	[31mw22[m, [31mw19[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102a0[m <[33mtest3[m+4>:	[32mb.le[m	[34m0x410264[m <[33minloop[m>
+[?2004h(gdb) 
+[?2004l   [34m0x4102a4[m <[33mtest3[m+8>:	[32msub[m	[31mw19[m, [31mw19[m, [34m#0x1[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102a8[m <[33mtest2[m>:	[32mmov[m	[31mw22[m, [34m#0x1                   [m[37;2m	// #1[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102ac[m <[33mtest2[m+4>:	[32mstr[m	[31mw22[m, [[31mx29[m, [34m#20[m]
+[?2004h(gdb) 
+[?2004l   [34m0x4102b0[m <[33mtest2[m+8>:	[32mcmp[m	[31mw19[m, [34m#0x0[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102b4[m <[33mtest2[m+12>:	[32mb.ge[m	[34m0x41029c[m <[33mtest3[m>[37;2m  // b.tcont[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102b8[m <[33mtest2[m+16>:	[32mmov[m	[31mw19[m, [34m#0x0                   [m[37;2m	// #0[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102bc[m <[33mtest2[m+20>:	[32mstr[m	[31mw19[m, [[31mx29[m, [34m#16[m]
+[?2004h(gdb) 
+[?2004l   [34m0x4102c0[m <[33mtest2[m+24>:	[32madrp[m	[31mx0[m, [34m0x410000[m <[33m_init[m>
+[?2004h(gdb) 
+[?2004l   [34m0x4102c4[m <[33mtest2[m+28>:	[32madd[m	[31mw0[m, [31mw0[m, [34m#0x1f7[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102c8[m <[33mtest2[m+32>:	[32mmov[m	[31mw1[m, [34m#0x0                   [m[37;2m	// #0[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102cc[m <[33mtest2[m+36>:	[32mbl[m	[34m0x410080[m <[33mprintf@plt[m>
+[?2004h(gdb) 
+[?2004l   [34m0x4102d0[m <[33mtest2[m+40>:	[32mb[m	[34m0x4102f0[m <[33mprinttest[m>
+[?2004h(gdb) 
+[?2004l   [34m0x4102d4[m <[33mprintloop[m>:	[32mldr[m	[31mw26[m, [[31mx28[m, [31mw19[m, [32msxtw[m [34m#2[m]
+[?2004h(gdb) 
+[?2004l   [34m0x4102d8[m <[33mprintloop[m+4>:	[32madrp[m	[31mx0[m, [34m0x410000[m <[33m_init[m>
+[?2004h(gdb) 
+[?2004l   [34m0x4102dc[m <[33mprintloop[m+8>:	[32madd[m	[31mw0[m, [31mw0[m, [34m#0x1ec[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102e0[m <[33mprintloop[m+12>:	[32mmov[m	[31mw1[m, [31mw19[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102e4[m <[33mprintloop[m+16>:	[32mmov[m	[31mw2[m, [31mw26[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102e8[m <[33mprintloop[m+20>:	[32mbl[m	[34m0x410080[m <[33mprintf@plt[m>
+[?2004h(gdb) 
+[?2004l   [34m0x4102ec[m <[33mprintloop[m+24>:	[32madd[m	[31mw19[m, [31mw19[m, [34m#0x1[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102f0[m <[33mprinttest[m>:	[32mcmp[m	[31mw19[m, [34m#0x50[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102f4[m <[33mprinttest[m+4>:	[32mb.lt[m	[34m0x4102d4[m <[33mprintloop[m>[37;2m  // b.tstop[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102f8[m <[33mdone[m>:	[32mmov[m	[31mw0[m, [34m#0x0                   [m[37;2m	// #0[m
+[?2004h(gdb) 
+[?2004l   [34m0x4102fc[m <[33mdone[m+4>:	[32mldp[m	[31mx29[m, [31mx30[m, [[31msp[m], [34m#352[m
+[?2004h(gdb) 
+[?2004l   [34m0x410300[m <[33mdone[m+8>:	[32mret[m
+[?2004h(gdb) 
+[?2004l   [34m0x410304[m <[33m_fini[m>:	[32mpaciasp[m
+[?2004h(gdb) 
+[?2004l   [34m0x410308[m <[33m_fini[m+4>:	[32mstp[m	[31mx29[m, [31mx30[m, [[31msp[m, [34m#-16[m]!
+[?2004h(gdb) 
+[?2004l   [34m0x41030c[m <[33m_fini[m+8>:	[32mmov[m	[31mx29[m, [31msp[m
+[?2004h(gdb) 
+[?2004l   [34m0x410310[m <[33m_fini[m+12>:	[32mldp[m	[31mx29[m, [31mx30[m, [[31msp[m], [34m#16[m
+[?2004h(gdb) 
+[?2004l   [34m0x410314[m <[33m_fini[m+16>:	[32mautiasp[m
+[?2004h(gdb) 
+[?2004l   [34m0x410318[m <[33m_fini[m+20>:	[32mret[m
+[?2004h(gdb) 
+[?2004l   [34m0x41031c[m:	[32mudf[m	[34m#0[m
+[?2004h(gdb) 
+[?2004l   [34m0x410320[m:	[32mudf[m	[34m#0[m
+[?2004h(gdb) 
+[?2004l   [34m0x410324[m:	[32mudf[m	[34m#0[m
+[?2004h(gdb) 
+[?2004l   [34m0x410328[m:	[32mudf[m	[34m#0[m
+[?2004h(gdb) 
+[?2004l   [34m0x41032c[m:	[32mudf[m	[34m#0[m
+[?2004h(gdb) 
+[?2004l   [34m0x410330[m:	[32mudf[m	[34m#0[m
+[?2004h(gdb) 
+[?2004l   [34m0x410334[m:	[32mudf[m	[34m#0[m
+[?2004h(gdb) 
+[?2004l   [34m0x410338[m:	[32mudf[m	[34m#0[m
+[?2004h(gdb) 
+[?2004l   [34m0x41033c[m:	[32mudf[m	[34m#0[m
+[?2004h(gdb) exit
+[?2004l[?2004hA debugging session is active.
+
+	Inferior 1 [process 519258] will be killed.
+
+Quit anyway? (y or n) y
+[?2004l]0;adam.affan@csa1:~[?2004h[UC adam.affan@csa1 ~] exit
+[?2004lexit
+
+Script done on 2024-10-22 23:48:00-06:00 [COMMAND_EXIT_CODE="0"]
