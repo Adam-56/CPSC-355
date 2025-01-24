@@ -6,11 +6,15 @@ Disk quotas for user adam.affan (uid 30737452):
                   1808K  10240M  10240M             172    100k    100k        
 
 ]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] ./a6T2 input.bingcc a6T2.s -o a6T2[2P./a6T2 input.bin[K./a6T2 input.bingcc a6T2.s -o a6T2m4 a6T2.asm > a6T2.s[8Pvim a6T2.asmm4 a6T2.asm > a6T2.s[C[C[1P.s[1P.s[C[C[1P[1P
-[?2004l]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] m4 a6.asm > a6.s./a6T2 input.bingcc a6T2.s -o a6T2m4 a6T2.asm > a6T2.s[2Pgcc a6T2.s -o a6T2[K[K[C[1P[1P
-[?2004l]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] gcc a6.s -o a6m4 a6.asm > a6.s./a6T2 input.bingcc a6T2.s -o a6T2[2P./a6T2 input.bin[C[1P input.bin[1P input.bin[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K
-[?2004lERROR
+[?2004l
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] m4 a6.asm > a6.s./a6T2 input.bingcc a6T2.s -o a6T2m4 a6T2.asm > a6T2.s[2Pgcc a6T2.s -o a6T2[K[K[C[1P[1P
+[?2004l
+]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] gcc a6.s -o a6m4 a6.asm > a6.s./a6T2 input.bingcc a6T2.s -o a6T2[2P./a6T2 input.bin[C[1P input.bin[1P input.bin[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K
+[?2004l
+ERROR
 ]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] ./a6 input.bin
-[?2004l|     x     |     cos(x)     |     sin(x)     |
+[?2004l
+|     x     |     cos(x)     |     sin(x)     |
  0.0000000000  	 0.0000000000  	 1.0000000000
  0.2500000000  	 0.0043633093  	 0.9999904807
  0.5000000000  	 0.0087265355  	 0.9999619231
@@ -373,6 +377,7 @@ Disk quotas for user adam.affan (uid 30737452):
 89.7500000000  	 0.9999904807  	 0.0043633093
 90.0000000000  	 1.0000000000  	 0.0000000000
 ]0;adam.affan@csa2:~[?2004h[UC adam.affan@csa2 ~] ./a6 input.bin[Kexit
-[?2004lexit
+[?2004l
+exit
 
 Script done on 2024-12-06 17:28:00-07:00 [COMMAND_EXIT_CODE="0"]
